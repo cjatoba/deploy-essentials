@@ -1,5 +1,3 @@
-## Criar dropet
-
 # Configuração para acesso SSH
 
 ## Primeiro acesso
@@ -41,3 +39,16 @@ sudo vim /etc/ssh/sshd_config
 ```bash
 sudo service ssh restart
 ```
+
+# Configuração do firewall
+
+- Acessar o projeto na DigitalOcean;
+- Acessar o dropet;
+- Selecionar a opção `Networking`;
+- Na seção `Firewalls` selecionar a opção `Edit`;
+- Clicar no botão `Create Firewall`;
+- Na seção `Name`atribuir um nome a nova regra;
+- Na seção `Inbound Rules` selecionar a opção `New role` e selecionar `HTTP`;
+- Na seção `Inbound Rules` selecionar a opção `New role` e selecionar `HTTPS`;
+- Na seção `Apply to Droplets` informar o nome do dropet em que a regra será aplicada ou `all` para aplicar a regra em todos so dropets;
+- Clicar no botão `Create Firewall`;
