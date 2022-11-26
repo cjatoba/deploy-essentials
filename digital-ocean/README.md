@@ -41,3 +41,8 @@ sudo vim /etc/ssh/sshd_config
 ```
 
 - Alterar a linha `PermitRootLogin yes` para `PermitRootLogin no`
+
+- Reiniciar o serviço do SSH
+```bash
+sudo service ssh restart
+```
