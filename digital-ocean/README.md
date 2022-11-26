@@ -17,11 +17,6 @@ adduser new-user-name
 usermod -aG sudo new-user-name
 ```
 
-## Adicionar o novo usuário no grupo sudo
-```bash
-usermod -aG sudo new-user-name
-```
-
 ## Habilitar acesso ssh para o novo usuário
 ```bash
 cd ~
