@@ -2,7 +2,7 @@
 
 ## Primeiro acesso
 ```bash
-ssh root@ip_do_dropet
+ssh root@ip_do_droplet
 ```
 
 ## Criar usuário (não root)
@@ -43,12 +43,16 @@ sudo service ssh restart
 # Configuração do firewall
 
 - Acessar o projeto na DigitalOcean;
-- Acessar o dropet;
+- Acessar o droplet;
 - Selecionar a opção `Networking`;
 - Na seção `Firewalls` selecionar a opção `Edit`;
 - Clicar no botão `Create Firewall`;
 - Na seção `Name`atribuir um nome a nova regra;
 - Na seção `Inbound Rules` selecionar a opção `New role` e selecionar `HTTP`;
 - Na seção `Inbound Rules` selecionar a opção `New role` e selecionar `HTTPS`;
-- Na seção `Apply to Droplets` informar o nome do dropet em que a regra será aplicada ou `all` para aplicar a regra em todos so dropets;
+- Na seção `Apply to 
+
+
+
+lets` informar o nome do droplet em que a regra será aplicada ou `All Droplets` para aplicar a regra em todos so droplets;
 - Clicar no botão `Create Firewall`;
